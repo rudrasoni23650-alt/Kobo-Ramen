@@ -1,0 +1,6 @@
+{
+  "name": "KŌBŌ RAMEN",
+  "description": "A cinematic interactive journey through modern Japanese ramen craftsmanship and Tokyo nightlife in Lower Manhattan, New York.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

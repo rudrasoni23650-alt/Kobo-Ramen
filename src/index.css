@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Native smooth scrolling with zero input latency */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure smooth hardware accelerated rendering */
+.will-change-transform {
+  will-change: transform;
+}
