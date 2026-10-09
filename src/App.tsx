@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import { Analytics } from '@vercel/analytics/react';
 import { Navbar } from './components/Navbar';
 import { CustomCursor } from './components/CustomCursor';
 import { SmoothScrollProvider } from './components/SmoothScroll';
@@ -72,6 +73,7 @@ export default function App() {
       <SectionScroller>
         <MainAppContent />
       </SectionScroller>
+      <Analytics />
     </SmoothScrollProvider>
   );
 }
